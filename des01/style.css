@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Yg-serif';
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+}
+
+:root {
+    --cor0: hsl(30, 54%, 90%);
+    --cor1: hsl(30, 18%, 87%);
+    --cor2: hsl(30, 10%, 34%);
+    --cor3: hsl(24, 5%, 18%);
+    --cor4: hsl(14, 45%, 36%);
+    --cor5: hsl(332, 51%, 32%);
+    --cor6: hsl(330, 100%, 98%);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor0);
+    color: var(--cor3);
+    max-width: 1920px;
+    min-width: 375px;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: auto;
+    font-family: 'Outfit', sans-serif;
+    color: var(--cor2);
+    background-color: #ffffff;
+    max-width: 650px;
+    min-width: 187,5px;
+    padding: 40px;
+    border-radius: 20px;
+    line-height: 1.8em;
+}
+
+main img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+main h1 {
+    font-family: 'Yg-serif', sans-serif;
+    font-size: 2.6em;
+    color: var(--cor3);
+}
+
+main h2 {
+    font-family: 'Yg-serif', sans-serif;
+    font-size: 1.8em;
+    color: var(--cor4);
+}
+ul.diferente {
+    padding-left: 40px;
+}
+
+main ul {
+    text-indent: 12px;
+    padding-left: 20px;
+}
+section {
+    background-color: var(--cor6);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+section h3 {
+    color: var(--cor5);
+    text-indent: 20px;
+}
