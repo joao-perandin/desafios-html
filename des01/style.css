@@ -116,3 +116,13 @@ hr {
   .tabela strong {
     color: var(--cor4);
   }
+
+  footer {
+    font-family: 'Outfit', sans-serif;
+    padding: 1px;
+    background-color: var(--cor4);
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 30px;
+  }
