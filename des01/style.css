@@ -76,13 +76,12 @@ main h2 {
 }
 
 main ul {
-    text-indent: 12px;
     padding-left: 20px;
     margin-bottom: 23.9px;
 }
 
 main ul li {
-    padding-left: 10px;
+    padding-left: 23px;
 }
 main ul li::marker {
     color: var(--cor4);
