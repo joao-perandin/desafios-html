@@ -10,7 +10,7 @@
 :root {
     --cor0: hsl(30, 54%, 90%);
     --cor1: hsl(30, 18%, 87%);
-    --cor2: hsl(30, 10%, 34%);
+    --cor2: hsl(32, 10%, 34%);
     --cor3: hsl(24, 5%, 18%);
     --cor4: hsl(14, 45%, 36%);
     --cor5: hsl(332, 51%, 32%);
@@ -33,10 +33,11 @@ main {
     color: var(--cor2);
     background-color: #ffffff;
     max-width: 650px;
-    min-width: 187,5px;
+    min-width: 157,5px;
     padding: 40px;
     border-radius: 20px;
     line-height: 1.8em;
+    padding-bottom: 20px;
 }
 
 main img {
@@ -50,30 +51,6 @@ main h1 {
     color: var(--cor3);
 }
 
-main h2 {
-    font-family: 'Yg-serif', sans-serif;
-    font-size: 1.8em;
-    color: var(--cor4);
-}
-ul.diferente {
-    padding-left: 40px;
-}
-
-main ul {
-    text-indent: 12px;
-    padding-left: 20px;
-}
-
-main ul li {
-    padding-left: 10px;
-}
-main ol {
-    padding-left: 25px;
-}
-
-main ol li {
-    padding-left: 18px;
-}
 section {
     background-color: var(--cor6);
     padding: 10px;
@@ -85,3 +62,57 @@ section h3 {
     text-indent: 20px;
     margin-top: 15px;
 }
+
+ul.bg-rosa {
+    padding-left: 40px;
+}
+.bg-rosa li::marker {
+    color: var(--cor5)
+}
+main h2 {
+    font-family: 'Yg-serif', sans-serif;
+    font-size: 1.8em;
+    color: var(--cor4);
+}
+
+main ul {
+    text-indent: 12px;
+    padding-left: 20px;
+    margin-bottom: 23.9px;
+}
+
+main ul li {
+    padding-left: 10px;
+}
+main ul li::marker {
+    color: var(--cor4);
+    font-weight: bold;
+}
+
+main ol {
+    padding-left: 25px;
+    margin-bottom: 23.9px;
+}
+
+main ol li {
+    padding-left: 18px;
+}
+main ol li::marker {
+    color: var(--cor4);
+    font-weight: bold;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+  }
+
+  .tabela {
+    list-style: none;
+    padding: 0px;
+    text-indent: 30px;
+  }
+  .tabela strong {
+    color: var(--cor4);
+  }
