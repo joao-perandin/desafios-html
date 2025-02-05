@@ -33,7 +33,7 @@ main {
     color: var(--cor2);
     background-color: #ffffff;
     max-width: 650px;
-    min-width: 157,5px;
+    min-width: 200px;
     padding: 40px;
     border-radius: 20px;
     line-height: 1.8em;
