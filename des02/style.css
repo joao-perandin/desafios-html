@@ -76,3 +76,8 @@ a:hover {
     background-color: var(--cor04);
     transition: 0.5s;
 }
+
+a:focus {
+    background-color: var(--cor04);
+    transition: 0.5s;
+}
